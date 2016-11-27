@@ -2,11 +2,11 @@
 import {AuthMethods, AuthProviders} from "angularfire2";
 
 export const firebaseConfig = {
-    apiKey: "AIzaSyA0BcUcu4V8aHT_gM-32BhRcmqji4z-lts",
-    authDomain: "final-project-recording.firebaseapp.com",
-    databaseURL: "https://final-project-recording.firebaseio.com",
-    storageBucket: "final-project-recording.appspot.com",
-    messagingSenderId: "290354329688"
+  apiKey: "AIzaSyBaIJ1WsVTcm0rRwwYocZbUIZ0CvnUk6uo",
+  authDomain: "angular-firebase-91a20.firebaseapp.com",
+  databaseURL: "https://angular-firebase-91a20.firebaseio.com",
+  storageBucket: "angular-firebase-91a20.appspot.com",
+  messagingSenderId: "698647074814"
 };
 
 
