@@ -1,10 +1,10 @@
-import { AngularFirebasePage } from './app.po';
+import { HelloWorldPage } from './app.po';
 
-describe('angular-firebase App', function() {
-  let page: AngularFirebasePage;
+describe('hello-world App', function() {
+  let page: HelloWorldPage;
 
   beforeEach(() => {
-    page = new AngularFirebasePage();
+    page = new HelloWorldPage();
   });
 
   it('should display message saying app works', () => {

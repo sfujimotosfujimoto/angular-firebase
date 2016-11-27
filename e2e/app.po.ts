@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class AngularFirebasePage {
+export class HelloWorldPage {
   navigateTo() {
     return browser.get('/');
   }
