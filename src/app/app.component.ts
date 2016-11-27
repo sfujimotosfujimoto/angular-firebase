@@ -25,7 +25,7 @@ export class AppComponent {
     const root = database().ref();
 
     root.on('value', function(snap){
-      console.log(snap.key, snap.val());
+      console.log(snap.val());
     });
   }
 
