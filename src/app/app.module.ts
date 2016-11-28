@@ -4,6 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import {AngularFireModule} from "angularfire2";
+import {firebaseConfig} from "../environments/firebase.config";
 
 @NgModule({
   declarations: [
@@ -11,10 +13,12 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
+    AngularFireModule.initializeApp(firebaseConfig),
     FormsModule,
     HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
