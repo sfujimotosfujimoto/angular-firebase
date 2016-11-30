@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {LessonsService} from "../shared/model/lessons.service";
-import {Lesson} from "../shared/model/lesson";
+import {LessonsService} from '../shared/model/lessons.service';
+import {Lesson} from '../shared/model/lesson';
 
 @Component({
   selector: 'app-home',

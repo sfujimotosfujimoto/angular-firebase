@@ -1,16 +1,16 @@
 import { Injectable } from '@angular/core';
-import {Observable} from "rxjs";
-import {Lesson} from "./lesson";
-import {AngularFire} from "angularfire2";
+import {Observable} from 'rxjs';
+import {Lesson} from './lesson';
+import {AngularFire} from 'angularfire2';
 
 @Injectable()
 export class LessonsService {
 
-  constructor(private af:AngularFire) {
+  constructor(private af: AngularFire) {
 
   }
 
   findAllLessons(): Observable<Lesson[]> {
-    return this.af.database.list('lessons')
+    return this.af.database.list('lessons');
   }
 }
