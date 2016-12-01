@@ -1,5 +1,5 @@
 import {Component, OnInit, Input} from '@angular/core';
-import {Lesson} from "../shared/model/lesson";
+import {Lesson} from '../shared/model/lesson';
 
 @Component({
   selector: 'app-lessons-list',

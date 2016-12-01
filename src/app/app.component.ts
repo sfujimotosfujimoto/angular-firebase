@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 import { initializeApp, database } from 'firebase';
-import {AngularFire, FirebaseListObservable, FirebaseObjectObservable} from "angularfire2";
+import {AngularFire, FirebaseListObservable, FirebaseObjectObservable} from 'angularfire2';
 import 'rxjs/Rx';
 
 @Component({
