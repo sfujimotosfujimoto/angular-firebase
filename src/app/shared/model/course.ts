@@ -19,6 +19,6 @@ export class Course {
   }
 
   static fromJsonArray(json: any[]): Course[] {
-    return json.map(Course.fromJson);
+    return json.map(course => Course.fromJson(course));
   }
 }
