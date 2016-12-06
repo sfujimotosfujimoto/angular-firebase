@@ -17,11 +17,11 @@ export class AppComponent {
 
   constructor(af: AngularFire) {
     this.courses$ = af.database.list('courses'); // the $ at the end means that it is an observable
-    this.courses$.subscribe(course => console.log('from app.component.ts courses$: ', course));
+    this.courses$.subscribe();
 
     this.lesson$ = af.database.object('lessons/-KX_zLkT8IBN0sPh-idV');
 
-    this.lesson$.subscribe(course => console.log('from app.component.ts lessons$: ', course));
+    this.lesson$.subscribe();
 
     this.courses$.map(courses => courses[0])
       .subscribe(

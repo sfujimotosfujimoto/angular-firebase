@@ -13,7 +13,6 @@ export class LessonsService {
   findAllLessons(): Observable<Lesson[]> {
     // used in home.component.ts
     return this.db.list('lessons')
-      .do(lessons => console.log('from lessons.service: ', lessons))
       .map(lessons => Lesson.fromJsonList(lessons));
   }
 }
