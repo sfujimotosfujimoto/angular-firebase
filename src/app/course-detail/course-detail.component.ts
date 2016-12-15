@@ -17,7 +17,6 @@ export class CourseDetailComponent implements OnInit {
   lessons: Lesson[];
   courseUrl: string;
 
-
   constructor(
     private route: ActivatedRoute,
     private coursesService: CoursesService
